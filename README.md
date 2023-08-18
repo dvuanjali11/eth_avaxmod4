@@ -22,28 +22,9 @@ The contract is an ERC20 token smart contract designed to provide the following 
 6. Click the "Deploy" button to deploy the contract to the selected testnet.
 7. Confirm the transaction in MetaMask and wait for the contract to be deployed. Once deployed, you will see the contract address in the Remix IDE.
 
-## Functions
+## Connection
+1. Go to [Snowtrace](https://testnet.snowtrace.io/) website.
 
-### mint
+2. Copy the contract address from Remix IDE and paste into the search bar on the Snowtrace.
 
-The `mint` function allows the contract owner to create new tokens and It takes two parameters: `to` and `amount`. Only the contract owner can call this function.
-
-### transferTokens
-
-The `transferTokens` function enables to transfer their tokens to others. 
-
-### checkBalance
-
-The `checkBalance` function allows to check their token balance at any time.
-
-### burnTokens
-
-The `burnTokens` function enables any token holder to burn their own tokens if they are no longer needed. The function requires that the caller has a sufficient balance of tokens.
-
-### PlayStore
-
-The `PlayStore` function provides information about the available items in the in-game store. 
-
-### redeemTokens
-
-The `redeemTokens` function allows to redeem tokens for items in the in-game store. Players need to provide the `choice` parameter, If the conditions are met, it transfers the corresponding token value to the contract owner.
+3. You can now get the informations about the functions.
